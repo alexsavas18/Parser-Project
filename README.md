@@ -3,3 +3,5 @@
   Current features for the Python Parser: 
   - Assignment operators: +, -, *, /, %
   - Assignment operators: =, +=, -=, *=, /=
+  - if/elif/else blocks
+  - Conditional statements: <, >, <=, >=, ==, !=, and, or, not
