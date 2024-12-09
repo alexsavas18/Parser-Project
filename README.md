@@ -39,4 +39,6 @@ I ran my parser using the following:
 ## Demo
 
 For a visual demonstration of the parser in action, you can refer to this video:
-- <VIDEO>
+- https://github.com/user-attachments/assets/665020bb-bbdc-4cae-9391-b4339c38eb01
+
+
