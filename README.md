@@ -17,12 +17,12 @@ I ran my parser using the following:
 2. **Install ANTLR**
    - Download ANTLR version 4.13.2 from [here](https://www.antlr.org/)
    - Copy the downloaded tool where you usually put third-party java libraries
-   -   sudo cp antlr-4.13.2-complete.jar /usr/local/lib/
+        - sudo cp antlr-4.13.2-complete.jar /usr/local/lib/
    - Add the tool to your CLASSPATH. Add it to your startup script
-   -   export CLASSPATH=".:/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH"
+        - export CLASSPATH=".:/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH"
    - Add aliases to your startup script to simplify the usage of ANTLR
-   -   alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
-   -   alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
+        - alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
+        - alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
 
 4. **Setup in VS Code**
    - Install the Python Extension for VS Code
